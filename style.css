@@ -374,7 +374,7 @@ p {
     color: #252B42;
 }
 
-input {
+.header-content input {
 
     width: 248px;
     height: 50px;
@@ -397,7 +397,7 @@ input {
     color: #737373;
 }
 
-select {
+.header-content select {
     width: 248px;
     height: 50px;
     box-sizing: border-box;
@@ -1092,3 +1092,316 @@ select {
     flex-grow: 0;
 }
     
+.contact {
+    position: absolute;
+    height: 823px;
+    left: 0px;
+    right: 0px;
+    top: 3637px;
+
+    background: #FAFAFA;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0px;
+    gap: 50px;
+    position: absolute;
+    width: 1050px;
+    height: 679px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+    padding-top: 100px;
+    z-index: 1;
+
+}
+
+
+
+.contact-text {
+    width: 455px;
+    height: 81px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contact h5 {
+    
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 50px;
+}
+
+.contact h2 {
+    position: absolute;
+    width: 451px;
+    height: 57px;
+    left: 0px;
+    top: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-top: 50px;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 602px;
+    height: 280px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 597px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.line1 input {
+    width: 265px;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    padding: 0px 10px;
+}
+
+.line2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 598px;
+    height: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.line2 select {
+    width: 286px;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    padding: 0px 10px;
+}
+
+#message {
+    box-sizing: border-box;
+    width: 598px;
+    height: 140px;
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    padding: 0px 10px;
+}
+
+.con-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 10px;
+    width: 218px;
+    height: 28px;
+    background: #FF7B47;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+}
+
+.ctc-bg {
+    position: absolute;
+    width: 1440px;
+    height: 821px;
+    left: 0px;
+    top: 0px;
+    background: url(./assets/img/contact.jpg);
+    z-index: 0;
+}
+
+.contact2 {
+    position: absolute;
+    height: 142px;
+    left: 0px;
+    right: 0px;
+    top: 681px;
+    background: #FAFAFA;
+    z-index: 1;
+}
+
+.contact2-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 0px;
+    position: absolute;
+    width: 1050px;
+    height: 142px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+
+.contact2-cntr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 360px;
+    width: 1050px;
+    height: 62px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contact2-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 454px;
+    height: 62px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contact2-txt h3 {
+    width: 455px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.contact2-txt p {
+    width: 273px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.contact2-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 236px;
+    height: 58px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#ct2-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 10px;
+    width: 160px;
+    height: 28px;
+    background: #FF7B47;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
