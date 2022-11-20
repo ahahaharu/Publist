@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+a {
+    text-decoration: none;
+}
+
 .mainpage {
     position: relative;
     margin: 0 auto;
@@ -701,7 +705,6 @@ select {
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #737373;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -723,25 +726,11 @@ select {
     gap: 30px;
     width: 877px;
     height: 442px;
-    border: 1px solid #DEDEDE;
-    border-radius: 5px;
     background-image: url(./assets/img/cover.jpg);
     background-repeat: no-repeat;
     z-index: 2;
 }
 
-.vid-img {
-    position: absolute;
-    width: 877px;
-    height: 442px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    
-
-    
-}
 #play-btn {
     padding: 34.8px 36.8px;
     position: absolute;
@@ -749,4 +738,201 @@ select {
     height: 98.4px;
     left: 440px;
     top: 375px;
+}
+
+.rev {
+    position: absolute;
+    height: 591px;
+    left: 0px;
+    right: 0px;
+    top: 2314px;
+
+    background: #F3F3F3;
+}
+
+.rev-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 80px;
+    position: absolute;
+    width: 1050px;
+    height: 591px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+
+.rev-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 864px;
+    height: 107px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rev h2 {
+    width: 355px;
+    height: 57px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.rev p {
+    width: 470px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rev-clients {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 33px;
+    width: 1048px;
+    height: 244px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rev-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 35px;
+    width: 255px;
+    height: 185px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rev-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 257px;
+    height: 184px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#stars {
+    width: 110.07px;
+    height: 22px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#card-h6 {
+    width: 234px;
+    height: 72px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 160px;
+    height: 50px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.rev-card-content img {
+    width: 50px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 120px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.client a {
+    width: 120px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FF7B47;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.client h6 {
+    width: 67px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
 }
